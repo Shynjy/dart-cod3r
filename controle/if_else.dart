@@ -6,6 +6,8 @@ main() {
   print("Nota seleciona foi $nota.");
   if (nota >= 7)
     print('Aprovado!');
+  else if (nota >= 3)
+    print('Recuperação!');
   else
     print('Reprovado!');
 }
